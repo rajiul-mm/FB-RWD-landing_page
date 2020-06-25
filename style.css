@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+.HeaderUpper{
+    display: flex;
+    background:#f8f2f2;
+    padding: 10px;
+}
+.HeaderUpper p{
+    margin-left: 10%;
+    font-size: 24px;
+}
+.HeaderUpper button{
+    float: right;
+    margin-left: 70%;
+    font-size: 16px;
+    padding: 10px;
+    background: #187ce5;
+    border: none;
+    color: white;
+}
+
+.HeaderUpper button:hover{
+    background: #0060c7;
+}
+ section div.mainHeader{
+    height:600px;
+    width:100%;
+    background:#BDBEBF url(images/bg-masthead.jpg) fixed;
+     background-size: cover;
+    
+}
+.headertext{
+    padding-top: 17%;
+}
+.headerInfo{
+     text-align: center;
+    color: white;
+    font-size: 30px;
+}
+input{
+    padding: 10px 55px 10px 55px;
+    border-radius: 7px;
+    border: none;
+}
+.signup{
+    padding: 7px 10px 10px 5px;
+    font-weight: bold;
+    color:white;
+    background: #1479e5;
+    border:none;
+}
+.signup:hover{
+    background: #0c5baf;
+}
+.features{
+    display: flex;
+    background: #F8F9FA;
+}
+.features .response{
+    padding:20vh 5%;
+    margin-left: 30px;
+}
+
+.features .response h2,p{
+    font-family: sans-serif;
+      text-align: center;
+}
+.features .response p{
+    line-height: 25px;
+}
+.features .response .bi{
+    font-size: 70px;
+    color:#007BFF;
+    display: block;
+    margin: 0px auto;
+}
+.three{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.three h2{
+    text-align: center;
+    margin:20vh 0 auto;
+}
+/*
+.three h2,p{
+    text-align: center;
+    padding: 20px;
+}
+*/
+.lastsec{
+    height: 60vh;
+    background: #F8F9FA;
+   
+}
+.lastsec h2{
+    text-align: center;
+}
+.lastsec p{
+    text-align: center;
+}
+.lastsec  img{
+    height: 200px;
+    border-radius: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+     margin-right: auto;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.three p{
+    font-size:18px;
+    text-align: justify;
+    line-height: 30px;
+    margin:0px 10vw;
+}
+.lastsec .people{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+ div.send{
+     height:400px !important;
+     
+}
+ div.send .sendtext{
+     padding-top: 11% !important;
+}
+.copy{
+    height: 30vh;
+    background: #F8F9FA;
+
+}
+.lastsec .icons .fa{
+    
+    font-size: 40px;
+    color: rgba(34, 119, 255, 0.99);
+    float: right;
+    margin:0 10px 0px;
+    cursor: pointer;
+}
+.lastsec .copy{
+    padding-left: 10%;
+    padding-top:12vh;
+    display: block;
+     padding-right:50px;
+}
+.lastsec .copy a{
+    margin-left: 10px;
+    text-decoration: none;
+    padding: 20px 0px 0px ;
+}
+.lastsec .copy p{
+    color: #b1aeac;
+    float: left;
+    margin-top: 10px;
+    padding-left: 14px;
+}
+.lastsec .copyright{
+    display: block;
+}
